@@ -4,22 +4,22 @@ const features = [
   {
     title: 'Online Banking',
     text: 'Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.',
-    icon: './icons/icon-online.svg',
+    icon: '/assets/icons/icon-online.svg',
   },
   {
     title: 'Simple Budgeting',
     text: 'See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.',
-    icon: './icons/icon-budgeting.svg',
+    icon: '/assets/icons/icon-budgeting.svg',
   },
   {
     title: 'Fast Onboarding',
     text: 'We don’t do branches. Open your account in minutes online and start taking control of your finances right away. ',
-    icon: './icons/icon-onboarding.svg',
+    icon: '/assets/icons/icon-onboarding.svg',
   },
   {
     title: 'Open API',
     text: 'Manage your savings, investments, pension, and much more from one account.Tracking your money has never been easier.',
-    icon: './icons/icon-api.svg',
+    icon: '/assets/icons/icon-api.svg',
   },
 ];
 

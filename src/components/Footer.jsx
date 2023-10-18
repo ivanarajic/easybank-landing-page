@@ -1,4 +1,4 @@
-import logo from '../assets/logo-footer.svg';
+import logo from '/assets/logo-footer.svg';
 import { AiFillFacebook } from 'react-icons/ai';
 import { AiFillYoutube } from 'react-icons/ai';
 import { BsTwitter, BsPinterest, BsInstagram } from 'react-icons/bs';
