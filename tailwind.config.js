@@ -10,8 +10,8 @@ export default {
         'bright-cyan': 'rgb(43,183,218)',
       },
       backgroundImage: {
-        'hero-desktop': "url('/assets/bg-intro-desktop.svg')",
-        'hero-mobile': "url('/assets/bg-intro-mobile.svg')",
+        'hero-desktop': "url('/bg-intro-desktop.svg')",
+        'hero-mobile': "url('/bg-intro-mobile.svg')",
       },
       borderStyle: ['hover'],
     },
