@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import logo from '/assets/logo.svg';
+import logo from '../assets/logo.svg';
 import Button from './Button';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
@@ -74,18 +74,18 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile navigation */}
-      <div className="lg:hidden block cursor-pointer">
+      <div className="lg:hidden block cursor-pointer z-20">
         {isNavOpen ? (
           <AiOutlineClose
             size={24}
             onClick={handleToggle}
-            className="fill-secondary"
+            className="fill-white "
           />
         ) : (
           <AiOutlineMenu
             size={24}
             onClick={handleToggle}
-            className="fill-secondary"
+            className="fill-secondary "
           />
         )}
 
@@ -107,9 +107,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-
       {isNavOpen && (
-        <div className="absolute top-0 left-0 lg:hidden w-full h-screen z-100 bg-primary/70" />
+        <div className="absolute top-0 left-0 lg:hidden w-full h-screen  bg-primary/70" />
       )}
 
       <div className="hidden lg:block">

@@ -1,4 +1,4 @@
-import mockupImg from '/assets/image-mockups.png';
+import mockupImg from '../assets/image-mockups.png';
 import Button from './Button';
 
 const Hero = () => {
